@@ -158,7 +158,7 @@ a{
 /* Responsive media queries */
 @media (max-width: 600px) {
     .content {
-        top: 30%;
+        top: 10%;
         padding: 20px 15px;
         width: 95vw;
         max-height: none;

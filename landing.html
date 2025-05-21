@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dxv1d || ld</title>
+    <link rel="stylesheet" href="landing.css">
+</head>
+<body>
+    
+    <video autoplay muted loop playsinline id="bg-video">
+        <source src="res/bg/bg.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+    </video>
+
+    <div class="content">
+        <div class="pfp">
+            <img src="res/img/travis.gif" alt="profile picture">
+        </div>
+
+        <h1 class="name">dxv1d</h1>
+        <h3 class="description">baller & coder</h3>
+
+        <div class="links">
+            <button class="instagram"><a href="#"></a>Instagram</button>
+            <button class="github"><a href="#"></a>Github</button>
+            <button class="donate"><a href="#"></a>Donate</button>
+        </div>
+
+        <div class="music-player">
+            <audio id="audio" src="res/audio/strazile.mp3"></audio>
+            <button id="playPauseBtn">⏸</button>
+            <input type="range" id="progress" value="0" step="1" min="0" />
+        </div>
+    </div>
+
+</body>
+
+<script src="music.js"></script>
+
+</html>

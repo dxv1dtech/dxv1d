@@ -22,7 +22,7 @@ body, html {
     top: 40%;
     left: 50%;
     width: 350px;
-    height: 500px;
+    height: 600px;
     transform: translate(-50%, -50%);
     text-align: center;
     padding: 30px;
@@ -31,6 +31,7 @@ body, html {
     box-shadow: 0 0 30px rgba(0, 0, 0, 0.6);
     color: white;
     opacity: 70%;
+    margin-top: 20px;
 }
 
 .pfp{
@@ -47,6 +48,15 @@ body, html {
     object-fit: cover;
     border-radius: 50%;
     display: block; 
+}
+
+iframe{
+    margin-top: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
 }
 
 /* Link things */
@@ -145,46 +155,33 @@ body, html {
     animation: rainbow 10s linear infinite;
 }
 
-/* Music */
-.music-player{
+/* Discord */
+.card{
     display: flex;
     align-items: center;
-    gap: 10px;
-    padding: 10px 20px;
+    gap: 15px;
+    background: #2c2f33;
+    padding: 15px 20px;
     border-radius: 12px;
     color: white;
     font-family: sans-serif;
-    position: fixed;
-    bottom: 20px;
-    left: 50%;
-    transform: translateX(-50%);
-    box-shadow: 0 0 15px rgba(0,0,0,0.3);
-    width: 75%;
+    max-width: 400px;
+    margin-top: 30px;
 }
   
-#progress{
-    flex: 1;
+.card img{
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+  }
+  
+.info h2{
+    margin: 0;
+    font-size: 20px;
 }
-
-#playPauseBtn{
-    background-color: #111827;
-    border: 1px solid transparent;
-    border-radius: .75rem;
-    box-sizing: border-box;
-    color: #FFFFFF;
-    cursor: pointer;
-    flex: 0 0 auto;
-    padding: .75rem 1.2rem;
-    text-align: center;
-    text-decoration: none #6B7280 solid;
-    text-decoration-thickness: auto;
-    transition-duration: .2s;
-    transition-property: background-color,border-color,color,fill,stroke;
-    transition-timing-function: cubic-bezier(.4, 0, 0.2, 1);
-    user-select: none;
-    -webkit-user-select: none;
-    touch-action: manipulation;
-    width: auto;
+  
+.info p{
+    margin: 2px 0;
 }
 
 /* Animations */

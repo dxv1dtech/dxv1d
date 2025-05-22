@@ -5,7 +5,7 @@ body, html {
     align-items: center;
     flex-direction: column;
     min-height: 100vh;
-    padding-top: 80px;
+    padding-top: 20px;
     font-family: sans-serif;
 }
   
@@ -155,7 +155,7 @@ a{
     }
 }
 
-/* Responsive media queries */
+/* Responsive Media */
 @media (max-width: 600px) {
     .content {
         top: 10%;

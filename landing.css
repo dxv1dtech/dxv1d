@@ -21,8 +21,8 @@ body, html {
 
 .content{
     width: 90vw;
-    max-width: 350px;
-    max-height: 90vh;
+    max-width: 450px;
+    max-height: 70vh;
     overflow-y: auto;
     text-align: center;
     padding: 30px 20px;
@@ -163,7 +163,7 @@ a{
 /* Responsive Media */
 @media (max-width: 600px) {
     .content {
-        max-height: 95vh;
+        max-height: 70vh;
         overflow-y: auto;
         padding-bottom: 50px;
     }

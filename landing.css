@@ -224,28 +224,32 @@ a{
 /* Responsive Media */
 @media (max-width: 600px) {
     .content {
-        max-height: 70vh;
+        width: 85vw;
+        max-width: 350px;
+        max-height: 65vh;
+        padding: 20px 15px;
+        font-size: 14px;  /* scale down text */
         overflow-y: auto;
         padding-bottom: 50px;
     }
 
     .pfp {
-        width: 40vw;
-        height: 40vw;
-        max-width: 120px;
-        max-height: 120px;
+        width: 30vw;
+        height: 30vw;
+        max-width: 100px;
+        max-height: 100px;
     }
 
     .name {
-        font-size: 1.5rem;
+        font-size: 1.3rem;
     }
 
     .instagram,
     .github,
     .donate {
-        font-size: 1rem;
-        height: 45px;
-        padding: 0 1rem;
+        font-size: 0.9rem;
+        height: 40px;
+        padding: 0 0.8rem;
     }
 
     .card {
@@ -262,8 +266,10 @@ a{
     .info h2 {
         font-size: 18px;
     }
+
     .home,
     .aboutme {
+        /* kept the same as desktop */
         width: 120px;
         height: 45px;
         font-size: 17px;

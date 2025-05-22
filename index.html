@@ -13,13 +13,22 @@
         Your browser does not support the video tag.
     </video>
 
+    <div class="navbar-card">
+        <button class="home" id="home">home</button>
+        <button class="aboutme" id="aboutme">about me</button>
+    </div>    
+
     <div class="content">
         <div class="pfp">
             <img src="res/img/travis.gif" alt="profile picture">
         </div>
 
         <h1 class="name">dxv1d</h1>
-        <h3 class="description">baller & coder</h3>
+        <h3 class="description">baller & <span class="auto-type"></span></h3>
+
+        <div class="introduction" id="introduction" style="display: none;">
+            <h3> <span class="title"></span> <br> I am 14yo and I live in Romania. I am a football player, playing as a LW at my local team. Also, I like coding, especially websites. This page is made by me in a few days soooo hope you like it.</h3>
+        </div>
 
         <div class="links">
             <button class="instagram"><a href="https://www.instagram.com/davidnox_/">Instagram</a></button>
@@ -30,9 +39,24 @@
         <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/5Ni6hyrd6GGKZy8Tzu3T0z?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
     </div>
 
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed(".auto-type", {
+            strings: ["coder"],
+            typeSpeed: 150,
+            backSpeed: 150,
+            loop: true
+        })
+    </script>
+    <script>
+        var typed = new Typed(".title", {
+            strings: ["Hi, my name is David,"],
+            typeSpeed: 150,
+            backSpeed: 150,
+            loop: true
+        })
+    </script>
+    <script src="buttons.js"></script>
+
 </body>
-
-<script src="music.js"></script>
-<script src="discord.js"></script>
-
 </html>

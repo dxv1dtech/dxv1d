@@ -7,6 +7,7 @@ body, html {
     min-height: 100vh;
     padding-top: 5px;
     font-family: sans-serif;
+    overflow: hidden;
 }
   
 #bg-video {
@@ -22,8 +23,8 @@ body, html {
 .content{
     width: 90vw;
     max-width: 350px;
-    height: auto;
-    max-height: 600px;
+    max-height: 90vh;
+    overflow-y: auto;
     text-align: center;
     padding: 30px 20px;
     border-radius: 12px;
@@ -31,8 +32,13 @@ body, html {
     box-shadow: 0 0 30px rgba(0, 0, 0, 0.6);
     color: white;
     opacity: 0.7;
-    margin-top: 20px;
     box-sizing: border-box;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+}
+
+.content::-webkit-scrollbar{
+    display: none;
 }
 
 .pfp{
@@ -158,10 +164,9 @@ a{
 /* Responsive Media */
 @media (max-width: 600px) {
     .content {
-        top: 5%;
-        padding: 20px 15px;
-        width: 95vw;
-        max-height: none;
+        max-height: 95vh;
+        overflow-y: auto;
+        padding-bottom: 30px;
     }
 
     .pfp {

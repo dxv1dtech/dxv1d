@@ -5,6 +5,7 @@ body, html {
     align-items: center;
     flex-direction: column;
     min-height: 100vh;
+    padding: 0;
     font-family: sans-serif;
     overflow: hidden;
 }
@@ -163,9 +164,10 @@ a{
 /* Responsive Media */
 @media (max-width: 600px) {
     .content {
-        max-height: 95vh;
-        overflow-y: auto;
-        padding-bottom: 50px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        padding: 20px 16px;
+        width: calc(100vw - 32px);
     }
 
     .pfp {

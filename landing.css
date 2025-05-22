@@ -20,11 +20,11 @@ body, html {
 }
 
 .content{
-    width: 90vw;
+    width: 100%;
     max-width: 350px;
     max-height: 90vh;
     overflow-y: auto;
-    text-align: center;
+    margin: 0 auto;
     padding: 30px 20px;
     border-radius: 12px;
     background-color: #1a1a1a;

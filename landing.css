@@ -20,11 +20,11 @@ body, html {
 }
 
 .content{
-    width: 100%;
+    width: 90vw;
     max-width: 350px;
     max-height: 90vh;
     overflow-y: auto;
-    margin: 0 auto;
+    text-align: center;
     padding: 30px 20px;
     border-radius: 12px;
     background-color: #1a1a1a;
@@ -165,7 +165,7 @@ a{
     .content {
         max-height: 95vh;
         overflow-y: auto;
-        margin-bottom: 50px;
+        padding-bottom: 50px;
     }
 
     .pfp {
